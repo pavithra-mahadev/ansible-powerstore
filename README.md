@@ -21,7 +21,7 @@ The capabilities of the Ansible modules are managing volumes, volume groups, vCe
 * [Branching strategy](https://github.com/dell/ansible-powerstore/blob/main/docs/BRANCHING.md)
 * [List of adopters](https://github.com/dell/ansible-powerstore/blob/main/docs/ADOPTERS.md)
 * [Maintainers](https://github.com/dell/ansible-powerstore/blob/main/docs/MAINTAINERS.md)
-* [Support](https://github.com/dell/ansible-powerstore/blob/main/docs/SUPPORT.md)
+* [Support](#Support)
 * [License](#license)
 * [Security](https://github.com/dell/ansible-powerstore/blob/main/docs/SECURITY.md)
 * [Requirements](#requirements)
@@ -52,10 +52,6 @@ Refer the [example playbooks](https://github.com/dell/ansible-powerstore/tree/ma
 The following tests are done on ansible-powerstore collection
 - Unit tests
 - Integration tests.
-
-
-## Support
-Refer [Support](https://github.com/dell/ansible-powerstore/blob/main/docs/SUPPORT.md) documenetation for more information on the support from Dell Technologies.
 
 
 ## Release, Maintenance and Deprecation
@@ -117,6 +113,13 @@ The modules are written in such a way that all requests are idempotent and hence
 * [NFS server module](https://github.com/dell/ansible-powerstore/blob/main/docs/modules/nfs_server.rst)
 * [Service config module](https://github.com/dell/ansible-powerstore/blob/main/docs/modules/service_config.rst)
 * [SNMP Manager module](https://github.com/dell/ansible-powerstore/blob/main/docs/modules/snmp_manager.rst)
+
+
+## Support
+
+The support is available through [GitHub Issues](https://github.com/dell/ansible-powerstore/issues) or at [Dell Community forum](https://www.dell.com/community/Automation/bd-p/Automation).
+
+As Red Hat Ansible Certified Content, this collection is entitled to support through the Ansible Automation Platform (AAP) using the **Create issue** button on the top right corner. If a support case cannot be opened with Red Hat, and the collection was obtained from Ansible Galaxy or GitHub, you can seek community support through the [Ansible Forum](https://forum.ansible.com/).
 
 
 ## License
